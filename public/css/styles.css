@@ -131,13 +131,16 @@ main{
 }
 
 .nombre-producto{
-    display: none;
+    visibility: hidden;
+        padding: 16px;
+        
 }
 
 .producto:hover .nombre-producto{
-    display: block;
+    visibility: visible;
     padding-top: 1rem;
 }
+
 
 /*----------------Tablet--------------------------------*/
 
