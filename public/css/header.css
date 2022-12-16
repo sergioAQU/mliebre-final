@@ -1,0 +1,121 @@
+/*Mobil*/
+
+#header-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 2rem 0;
+}
+
+#logo{
+    width: 45%;
+}
+
+.barra-busqueda{
+    background-color: #ffffff;
+    width: 45%;
+    align-self: center;
+    display: flex;
+    border-radius: 4px;
+}
+
+.barra-busqueda form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.field-busqueda{
+    width: 100%;
+    display: inline;
+}
+
+.field-busqueda input{
+    width: 100%
+}
+
+.lupa{
+    background-color: white;
+    justify-self: flex-end;
+    display: inline;
+}
+
+.cuotas{
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.cuotas div{
+    display: inline;
+}
+
+nav{
+    display: none;
+}
+
+.burger-menu{
+    padding-bottom: 1rem;
+    color: white;
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    margin: auto;
+}
+
+.burger-menu i{
+    padding: 0.5rem;
+    border-radius: 15%;
+    background-color: #03264C;
+}
+
+
+#banner img{
+    width: 100vw;
+}
+
+/*Tablet*/
+
+@media (min-width: 361px){
+
+    #logo{
+        width: 30%;
+    }
+
+    .barra-busqueda{
+        width: 30%;
+    }
+
+    .cuotas{
+        width: 30%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 1.5rem;
+    }
+
+    .nav{
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+}
+
+/*Escritorio*/
+
+@media (min-width: 769px){
+   
+}

@@ -1,0 +1,46 @@
+/*---------------------Mobil------------------*/
+.main{
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.formulario-login{
+    width: 70%;
+    margin: 1rem 0;
+}
+
+.field{
+    display: block;
+    margin-bottom: 2rem;
+    padding-left: 0.75rem;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.field input{
+    width: 100%;
+    height: 100%;
+    padding: 0.75rem 0;
+}
+
+.boton-entrar button{
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #03264C;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.boton-entrar:hover button{
+    background-color: #0022AA;
+    cursor: pointer;
+}
+
+input{
+    display: block;
+}
+
